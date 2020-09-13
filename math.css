@@ -1,0 +1,37 @@
+body{
+    background-image: url("nurses.jpg");
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    height: 100vh;
+    background-color: rgba(87, 87, 144, 0.8);
+    padding-top: 20px;
+    /* background-color: rgba(43, 41, 70, 0.8); */
+}
+form{
+    padding: 10px;
+    width:90%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(43, 41, 70, 0.8);
+}
+
+input,p,button{
+    margin: 10px;
+}
+
+input,button,p{
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+
+button{
+    background-color: #37AF65;
+    color: white;
+    padding: 10px;
+}

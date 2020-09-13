@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./math.css">
+</head>
+<body>
+    <main>
+        <form>
+            <h1>مؤشر الكتلة</h1>
+            <label for="weight">الوزن بالكيلوجرام</label><br>
+            <input type="text" id="weight"><br><br>
+            <label for="length">الطول بالسنتيمتر</label><br>
+            <input type="text" id="length"><br>
+            <button onclick="calc()" type="button">إحسب</button><!--type button not to make it submit and refresh the page-->
+            <p id="resultnum">مؤشر الكتلة</p><br>
+            <p id="resulttext">الوصف</p>
+        </form>
+    </main>
+    <script src="./math.js"></script>
+</body>
+</html>
